@@ -18,7 +18,7 @@ Findings on a Quadro M2000M (4 GB VRAM, 2016 mobile workstation):
 | Hybrid ELM | 76.4% | 46.3% | 0.99 |
 | Deep learning (NAS over CNN/TCN/LSTM) | **94.4%** | **68.9%** | 5.24 |
 
-Key result: hybrid SVM achieves within 1.5% of the best deep learning model on UCF101 at **2.8× lower inference latency**, making it a strong candidate for latency-critical deployment on constrained hardware.
+Key result: hybrid SVM achieves within 1.5% of the best deep learning model on UCF101 at **2.8× lower inference latency** AND **25x less GPU memory**, making it a strong candidate for latency-critical deployment on constrained hardware.
 
 ---
 
